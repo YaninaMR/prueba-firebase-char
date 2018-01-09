@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>restaurantes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="content-type" content="text/html;UTF-8">
+  <meta http-equiv="cache-control" content="cache">
+  <meta http-equiv="content-language" content="es">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,500,600,700" rel="stylesheet">
+  <script src="https://use.fontawesome.com/76a445f0fd.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <nav>
+     <div class="nav-wrapper color">
+      <a href="#" class="brand-logo "><img src="../assets/img/logo.png" class="img-logo">Map</a>
+      </div>
+    </nav>
+    <div class="valign-wrapper container">      
+      <ul class="left ">
+         <li>
+          <input type="text" placeholder="Busca comida,nombre o lugar" id="search" data-search />
+        </li>
+        <li>
+          <a class="waves-effect waves-light btn">
+            <i class="material-icons">search</i>
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">
+            <i class="material-icons">add</i>
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect waves-light btn">
+            <i class="material-icons">search</i>
+          </a>
+        </li>
+        <li>
+          <input type="text" placeholder="search" id="search" data-search />
+        </li>
+
+        
+      </ul>
+    </div>
+ <!-- Modal jhoalbert -->
+   <!-- Modal jhoalbert -->
+   <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Contactos</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="name">
+              <label for="icon_prefix">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="icon_telephone" type="tel" class="validate phone">
+              <label for="icon_telephone">Telephone</label>
+            </div>
+          </div>
+          <a class="waves-effect waves-light btn" id="add">Agregar</a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="cont"></div>    
+  
+
+
+
+
+
+
+
+
+   
+  <!-- Modal -->
+<div class="modal fade" id="modal-sm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+       </div>
+      <div class="modal-body">
+        <div id="friendcl"></div>
+        <div class="row">  
+          <div class="col s12">             
+             <button type="button" class="col s6 btn btn-flat btn-pad barra follow-friend">ya no seguir</button>             
+             <button class="col s6 modal-action modal-close waves-effect waves-green btn-flat btn-pad">Cancelar</button> 
+         </div>
+        </div>
+      </div>
+       <h6 class="modal-title"></h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<!--div contenedor inicio-->
+<div id="container-contacts">
+   <section class="contacts" id="contact-social">
+    
+   </section> 
+</div>
+<!-- div contenedor fin
+
+   <div class="" role="button" tabindex="0" data-testid="870900710174535680-unfollow">
+     <div class="" dir="auto">Siguiendo</div>
+   </div>-->
+
+
+
+
+
+
+<!-- div amigos fin-->
+
+
+
+
+ <!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Base de datos -->
+  <script src='../js/dataVolunteer.js'></script>
+  <!-- archivos JS -->
+  <script src="../js/appFotos.js"></script>
+   
+</body>
+
+</html>
